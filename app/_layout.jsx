@@ -17,14 +17,22 @@ import {StatusBar} from "react-native"
         >
             <Stack.Screen name="index" options={{headerTitle:
             "Home"}} />
+
             <Stack.Screen name="setting" options={{headerTitle:
             "Configurações"}} />
+
             <Stack.Screen name="user" options={{headerTitle:
             "Usuários"}} />
+
+            <Stack.Screen name="products/index" options={{headerTitle:
+            "Produtos"}} />
+
+            <Stack.Screen name="products/[id]" options={{headerTitle:
+            "Produtos"}} />
             <Stack.Screen name="+not-found" options={{headerTitle:
             "Erro"}} />
         </Stack>
         </>
-        )
+        );
     
 }
